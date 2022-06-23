@@ -193,16 +193,16 @@ Please see ```SimMC.py``` for more details.
 | D-13 Descriptors   |     43.7 |     68.6 |     76.7 |     23.7 |     14.2 |     20.6 |     23.7 |     17.2 |     28.3 |     53.1 |     65.9 |     13.1 |
 | D-16 Descriptors   |     44.5 |     69.1 |     80.2 |     24.5 |     17.0 |     25.3 |     29.6 |     18.8 |     32.6 |     55.7 |     68.3 |     16.7 |
 | PoseGait           |     28.9 |     51.6 |     62.9 |     20.8 |      8.8 |     23.0 |     31.2 |     11.1 |     14.0 |     40.7 |     56.7 |      9.9 |
-| SGELA + DF         |     23.6 |     42.9 |     51.9 |     14.8 |     13.9 |     15.3 |     16.7 |     22.9 |     29.2 |     65.2 |     73.8 |     23.5 |
-| MG-SCR             |     32.4 |     56.5 |     69.4 |     12.9 |     10.8 |     20.3 |     29.4 |     11.9 |     20.1 |     46.9 |     64.1 |      7.6 |
-| SM-SGE + DF        |     44.3 |     68.2 |     77.5 |     14.9 |     16.7 |     31.0 |     40.2 |     18.7 |     34.8 |     60.6 |     71.5 |     12.8 |
-| AGE                |     31.1 |     52.3 |     64.2 |     12.8 |     11.7 |     21.4 |     27.3 |     12.6 |     25.1 |     43.1 |     61.6 |      8.9 |
-| SGELA              |     22.2 |     40.8 |     50.2 |     14.0 |     11.7 |     14.0 |     14.7 |     19.0 |     25.8 |     51.8 |     64.4 | **15.1** |
-| SM-SGE             |     38.9 |     64.1 |     75.8 |     13.3 |     13.2 |     25.8 |     33.5 |     15.2 |     31.3 |     56.3 |     69.1 |     10.1 |
+| [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE) + DF         |     23.6 |     42.9 |     51.9 |     14.8 |     13.9 |     15.3 |     16.7 |     22.9 |     29.2 |     65.2 |     73.8 |     23.5 |
+| [MG-SCR](https://github.com/Kali-Hac/MG-SCR)             |     32.4 |     56.5 |     69.4 |     12.9 |     10.8 |     20.3 |     29.4 |     11.9 |     20.1 |     46.9 |     64.1 |      7.6 |
+| [SM-SGE](https://github.com/Kali-Hac/SM-SGE) + DF        |     44.3 |     68.2 |     77.5 |     14.9 |     16.7 |     31.0 |     40.2 |     18.7 |     34.8 |     60.6 |     71.5 |     12.8 |
+| [AGE](https://github.com/Kali-Hac/SGE-LA)                |     31.1 |     52.3 |     64.2 |     12.8 |     11.7 |     21.4 |     27.3 |     12.6 |     25.1 |     43.1 |     61.6 |      8.9 |
+| [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE)             |     22.2 |     40.8 |     50.2 |     14.0 |     11.7 |     14.0 |     14.7 |     19.0 |     25.8 |     51.8 |     64.4 | **15.1** |
+| [SM-SGE](https://github.com/Kali-Hac/SM-SGE)             |     38.9 |     64.1 |     75.8 |     13.3 |     13.2 |     25.8 |     33.5 |     15.2 |     31.3 |     56.3 |     69.1 |     10.1 |
 | **SimMC (Ours)**   | **46.3** | **68.1** | **77.0** | **22.9** | **24.5** | **36.7** | **44.5** | **19.9** | **41.7** | **66.6** | **76.8** |     12.3 |
-| SGELA + **SimMC**  |     21.2 |     39.1 |     48.8 |     14.0 |     18.4 |     23.1 |     25.0 |     28.7 |     51.8 |     71.3 |     74.4 |     43.3 |
-| MG-SCR + **SimMC** |     52.4 |     72.0 |     78.8 |     29.1 |     25.1 |     37.5 |     46.4 |     20.3 |     28.3 |     51.6 |     64.8 |     10.9 |
-| SM-SGE + **SimMC** |     55.3 |     72.6 |     80.3 |     34.1 |     25.9 |     39.2 |     45.2 |     22.4 |     42.6 |     64.8 |     76.2 |     15.4 |
+| [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE) + **SimMC**  |     21.2 |     39.1 |     48.8 |     14.0 |     18.4 |     23.1 |     25.0 |     28.7 |     51.8 |     71.3 |     74.4 |     43.3 |
+| [MG-SCR](https://github.com/Kali-Hac/MG-SCR) + **SimMC** |     52.4 |     72.0 |     78.8 |     29.1 |     25.1 |     37.5 |     46.4 |     20.3 |     28.3 |     51.6 |     64.8 |     10.9 |
+| [SM-SGE](https://github.com/Kali-Hac/SM-SGE) + **SimMC** |     55.3 |     72.6 |     80.3 |     34.1 |     25.9 |     39.2 |     45.2 |     22.4 |     42.6 |     64.8 |     76.2 |     15.4 |
 
 ## Model Size & Computational Complexity
 | Methods          |  # Params |   GFLOPs |
@@ -210,12 +210,12 @@ Please see ```SimMC.py``` for more details.
 | D-13 Descriptors |         — |        — |
 | D-16 Descriptors |         — |        — |
 | PoseGait         |     8.93M |   121.60 |
-| SGELA + DF       |     9.09M |     7.48 |
-| MG-SCR           |     0.35M |     6.60 |
-| SM-SGE + DF      |     6.25M |    23.92 |
-| AGE              |     7.15M |    37.37 |
-| SGELA            |     8.47M |     7.47 |
-| SM-SGE           |     5.58M |    22.61 |
+| [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE) + DF       |     9.09M |     7.48 |
+| [MG-SCR](https://github.com/Kali-Hac/MG-SCR)           |     0.35M |     6.60 |
+| [SM-SGE](https://github.com/Kali-Hac/SM-SGE) + DF      |     6.25M |    23.92 |
+| [AGE](https://github.com/Kali-Hac/SGE-LA)               |     7.15M |    37.37 |
+| [SGELA](https://github.com/Kali-Hac/Locality-Awareness-SGE)            |     8.47M |     7.47 |
+| [SM-SGE](https://github.com/Kali-Hac/SM-SGE)           |     5.58M |    22.61 |
 | **SimMC (Ours)** | **0.15M** | **0.99** |
 
 ## Citation
