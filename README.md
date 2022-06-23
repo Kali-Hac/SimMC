@@ -9,6 +9,8 @@ By Haocong Rao and Chunyan Miao. In IJCAI 2022 (In press, [**Preprint**](https:/
 ## Introduction
 This is the official implementation of SimMC presented by "SimMC: Simple Masked Contrastive Learning of Skeleton Representations for Unsupervised Person Re-Identification". The codes are used to reproduce experimental results of the proposed SimMC framework in the [**paper**](https://arxiv.org/pdf/2204.09826).
 
+Abstract: Recent advances in skeleton-based person re-identification (re-ID) obtain impressive performance via either hand-crafted skeleton descriptors or skeleton representation learning with deep learning paradigms. However, they typically require skeletal pre-modeling and label information for training, which leads to limited applicability of these methods. In this paper, we focus on unsupervised skeleton-based person re-ID, and present a generic Simple Masked Contrastive learning (SimMC) framework to learn effective representations from unlabeled 3D skeletons for person re-ID. Specifically, to fully exploit skeleton features within each skeleton sequence, we first devise a masked prototype contrastive learning (MPC) scheme to cluster the most typical skeleton features (skeleton prototypes) from different subsequences randomly masked from raw sequences, and contrast the inherent similarity between skeleton features and different prototypes to learn discriminative skeleton representations without using any label. Then, considering that different subsequences within the same sequence usually enjoy strong correlations due to the nature of motion continuity, we propose the masked intra-sequence contrastive learning (MIC) to capture intra-sequence pattern consistency between subsequences, so as to encourage learning more effective skeleton representations for person re-ID. Extensive experiments validate that the proposed SimMC outperforms most state-of-the-art skeleton-based methods. We further show its scalability and efficiency in enhancing the performance of existing models.
+
 
 ## Environment
 - Python >= 3.5
@@ -166,6 +168,17 @@ python SimMC.py --dataset CAISA_B --probe_type nm.nm --length 40
 
 Please see ```SimMC.py``` for more details.
 
+## Citation
+If you find our work useful for your research, please cite our paper
+```bash
+@inproceedings{rao2022simmc,
+  title={SimMC: Simple Masked Contrastive Learning of Skeleton Representations for Unsupervised Person Re-Identification},
+  author={Rao, Haocong and Miao, Chunyan},
+  booktitle = {IJCAI},
+  publisher = {ijcai.org},
+  year      = {2022}
+}
+```
 
 ## License
 
