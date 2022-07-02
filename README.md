@@ -229,7 +229,7 @@ If you find our work useful for your research, please cite our paper
   year      = {2022}
 }
 ```
-
+More awesome skeleton-based models are collected in our [Awesome-Skeleton-Based-Models](https://github.com/Kali-Hac/Awesome-Skeleton-Based-Models).
 ## License
 
 SimMC is released under the MIT License. Our models and codes must only be used for the purpose of research.
