@@ -158,7 +158,7 @@ Please download the pre-processed datasets into the directory ``Datasets/``. <br
 To (1) train the SimMC to obtain skeleton representations and (2) validate their effectiveness on the person re-ID task on CASIA B under **single-condition** and **cross-condition** settings, please simply run the following command:
 
 ```bash
-python SimMC.py --dataset CAISA_B --probe_type nm.nm --length 40
+python SimMC.py --dataset CASIA_B --probe_type nm.nm --length 40
 
 # --length [40, 50, 60] 
 # --probe_type ['nm.nm' (for 'Nm' probe and 'Nm' gallery), 'cl.cl', 'bg.bg', 'cl.nm' (for 'Cl' probe and 'Nm' gallery), 'bg.nm']  
