@@ -4,7 +4,7 @@
 ![Faiss-gpu >= 1.6.3](https://img.shields.io/badge/Faiss->=1.6.3-orange.svg)
 
 # SimMC: Simple Masked Contrastive Learning of Skeleton Representations for Unsupervised Person Re-Identification
-By Haocong Rao and Chunyan Miao. In IJCAI 2022 ([**Paper**](https://www.ijcai.org/proceedings/2022/180), [**Appendics**](https://arxiv.org/abs/2204.09826v3)).
+By Haocong Rao and Chunyan Miao. In IJCAI 2022 ([**Paper**](https://www.ijcai.org/proceedings/2022/180), [**Appendix**](https://arxiv.org/abs/2204.09826v3)).
 
 ## Introduction
 This is the official implementation of SimMC presented by "SimMC: Simple Masked Contrastive Learning of Skeleton Representations for Unsupervised Person Re-Identification". The codes are used to reproduce experimental results of the proposed SimMC framework in the [**paper**](https://www.ijcai.org/proceedings/2022/0180.pdf).
