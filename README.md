@@ -7,7 +7,7 @@
 By Haocong Rao and Chunyan Miao. In IJCAI 2022 ([**Paper**](https://www.ijcai.org/proceedings/2022/0180.pdf), [**Appendices**](https://arxiv.org/abs/2204.09826v3)).
 
 
-SimMC is the ONLY paper on skeleton-based person re-identification among [IJCAI 2022 accepted papers](https://ijcai-22.org/main-track-accepted-papers/).
+SimMC is the *only* paper on skeleton-based person re-identification among [IJCAI 2022 accepted papers](https://ijcai-22.org/main-track-accepted-papers/).
 
 ## Introduction
 This is the official implementation of SimMC presented by "SimMC: Simple Masked Contrastive Learning of Skeleton Representations for Unsupervised Person Re-Identification". The codes are used to reproduce experimental results of the proposed SimMC framework in the paper.
